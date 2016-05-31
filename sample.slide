@@ -1,0 +1,63 @@
+Title of document
+Subtitle of document
+15:04 2 Jan 2016
+Tags: foo, bar, baz
+
+Author Name
+Job title, Company
+joe@example.com
+http://url/
+@twitter_name
+
+* Title of slide or section (must have asterisk)
+
+Some Text
+
+** Subsection
+
+- bullets
+- more bullets
+- a bullet with
+
+*** Sub-subsection
+
+Some More text
+
+  Preformatted text
+  is indented (however you like)
+
+* Text
+
+Some More text
+
+  Preformatted text
+  is indented (however you like)
+
+* Font
+
+_italic_
+*bold*
+`program`
+_this_is_all_italic_
+_Why_use_scoped__ptr_? Use plain ***ptr* instead.
+
+* Inline link
+
+[[url][label]], or [[url]]
+
+* Link
+
+.link http://golang.org golang.org
+
+
+* Code
+
+.code -numbers test.go /START OMIT/,/END OMIT/
+
+* The Go Playground
+
+.play main.go
+
+* Images
+
+.image gopher.png 300 200
