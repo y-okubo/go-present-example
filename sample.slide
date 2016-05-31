@@ -1,6 +1,6 @@
 Title of document
 Subtitle of document
-15:04 2 Jan 2016
+12:00 2 Jan 2016
 Tags: foo, bar, baz
 
 Author Name
@@ -11,20 +11,17 @@ http://url/
 
 * Title of slide or section (must have asterisk)
 
-Some Text
+** Subsection1
 
-** Subsection
+- bullets 2
+- more bullets 2
+- a bullet with 2
 
-- bullets
-- more bullets
-- a bullet with
+*** Subsubsection2
 
-*** Sub-subsection
-
-Some More text
-
-  Preformatted text
-  is indented (however you like)
+- bullets 1
+- more bullets 1
+- a bullet with 1
 
 * Text
 
@@ -49,15 +46,14 @@ _Why_use_scoped__ptr_? Use plain ***ptr* instead.
 
 .link http://golang.org golang.org
 
-
 * Code
 
 .code -numbers test.go /START OMIT/,/END OMIT/
 
 * The Go Playground
 
-.play main.go
+.play demo.go
 
 * Images
 
-.image gopher.png 300 200
+.image gopher.png 408 300
